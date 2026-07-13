@@ -1,0 +1,12 @@
+Service ID,Category,Species,Price,Duration,Requires Appointment,Availability,Special Offer,Service Name,Description
+DOG-001,Consultation,Dog,55,20 minutes,Yes,6 slots left today,Free nail trim included,General Dog Consultation,Routine consultation for dogs covering symptoms follow-up questions and a treatment plan.
+DOG-014,Preventive,Dog,30,15 minutes,Yes,Available Monday to Saturday,10 percent off with vaccination bundle,Dog Microchipping,Quick microchipping appointment for dogs with registration guidance and aftercare advice.
+DOG-022,Grooming,Dog,42,30 minutes,Yes,4 slots left tomorrow,None,Bath and Brush,Basic bath and brushing service for dogs with coat condition check.
+CAT-005,Consultation,Cat,60,25 minutes,Yes,4 slots left today,None,Cat Wellness Check,General wellness exam for cats including weight hydration and preventive care review.
+CAT-018,Preventive,Cat,28,15 minutes,Yes,Available this week,Microchip and vaccine bundle available,Cat Microchipping,Microchipping appointment for cats including registration advice and aftercare guidance.
+RAB-003,Nutrition,Rabbit,45,30 minutes,Yes,3 appointments this week,Free diet guide download,Rabbit Nutrition Review,Diet-focused consultation for rabbits to review feeding habits supplements and digestive care.
+RAB-010,Consultation,Rabbit,50,20 minutes,Yes,2 slots left this week,None,Rabbit Health Consultation,Short health consultation for rabbits with symptom review and care recommendations.
+BIRD-011,Preventive,Bird,70,30 minutes,Yes,2 appointments this week,None,Avian Health Check,Preventive bird health examination including handling advice nutrition review and screening.
+SMM-004,Consultation,Small Mammal,58,20 minutes,Yes,5 appointments available,None,Small Mammal Consultation,Consultation for hamsters guinea pigs and similar pets covering symptoms and treatment options.
+GEN-021,Telehealth,Dogs Cats Rabbits,40,20 minutes,Yes,Same-day remote slots available,None,Telehealth Follow-Up,Remote follow-up consultation for eligible existing patients needing quick advice or treatment review.
+GEN-030,Preventive,Dogs Cats,95,45 minutes,Yes,Weekend appointments available,Seasonal wellness package discount,Senior Pet Wellness Package,Extended preventive visit for older pets including exam mobility review and care plan.

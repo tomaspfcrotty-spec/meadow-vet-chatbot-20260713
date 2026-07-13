@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meadow Vet Care</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="appShell">
+    <section class="hero">
+      <p class="eyebrow">Customer Chatbot Demo</p>
+      <h1>Meadow Vet Care</h1>
+      <p class="intro">A lightweight vet-service chatbot wired to live service data and ready for an LLM connection.</p>
+      <div class="heroMeta">
+        <span id="dataSourcePill" class="pill">Loading data source...</span>
+        <span class="pill muted">Dogs, Cats, Rabbits, Birds</span>
+      </div>
+    </section>
+
+    <section class="layout">
+      <div class="panel chatPanel">
+        <div class="panelHeader">
+          <h2>Ask the Assistant</h2>
+          <p>Try: microchipping, dog services, telehealth, most expensive service</p>
+        </div>
+
+        <div id="messages" class="messages" aria-live="polite"></div>
+
+        <div class="quickPrompts">
+          <button type="button" data-prompt="What dog services do you offer?">Dog services</button>
+          <button type="button" data-prompt="Are there any offers on microchipping?">Microchipping</button>
+          <button type="button" data-prompt="Do you have telehealth services?">Telehealth</button>
+          <button type="button" data-prompt="What is your most expensive service?">Most expensive</button>
+        </div>
+
+        <form id="chatForm" class="chatForm">
+          <input id="messageInput" name="message" type="text" placeholder="Ask a Meadow Vet Care question" autocomplete="off" required>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+
+      <div class="panel servicesPanel">
+        <div class="panelHeader">
+          <h2>Live Services</h2>
+          <p>Current service records from the configured source</p>
+        </div>
+        <div id="serviceCards" class="serviceCards"></div>
+      </div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+[
+  {
+    "serviceId": "DOG-001",
+    "category": "Consultation",
+    "species": "Dog",
+    "price": "55",
+    "duration": "20 minutes",
+    "appointmentRequired": "Yes",
+    "availability": "6 slots left today",
+    "specialOffer": "Free nail trim included",
+    "serviceName": "General Dog Consultation",
+    "description": "Routine consultation for dogs covering symptoms, follow-up questions, and a treatment plan."
+  },
+  {
+    "serviceId": "DOG-014",
+    "category": "Preventive",
+    "species": "Dog",
+    "price": "30",
+    "duration": "15 minutes",
+    "appointmentRequired": "Yes",
+    "availability": "Available Monday to Saturday",
+    "specialOffer": "10 percent off with vaccination bundle",
+    "serviceName": "Dog Microchipping",
+    "description": "Quick microchipping appointment for dogs with registration guidance and aftercare advice."
+  },
+  {
+    "serviceId": "CAT-005",
+    "category": "Consultation",
+    "species": "Cat",
+    "price": "60",
+    "duration": "25 minutes",
+    "appointmentRequired": "Yes",
+    "availability": "4 slots left today",
+    "specialOffer": "None",
+    "serviceName": "Cat Wellness Check",
+    "description": "General wellness exam for cats including weight, hydration, and preventive care review."
+  },
+  {
+    "serviceId": "RAB-003",
+    "category": "Nutrition",
+    "species": "Rabbit",
+    "price": "45",
+    "duration": "30 minutes",
+    "appointmentRequired": "Yes",
+    "availability": "3 appointments this week",
+    "specialOffer": "Free diet guide download",
+    "serviceName": "Rabbit Nutrition Review",
+    "description": "Diet-focused consultation for rabbits to review feeding habits, supplements, and digestive care."
+  },
+  {
+    "serviceId": "GEN-021",
+    "category": "Telehealth",
+    "species": "Dogs, Cats, Rabbits",
+    "price": "40",
+    "duration": "20 minutes",
+    "appointmentRequired": "Yes",
+    "availability": "Same-day remote slots available",
+    "specialOffer": "None",
+    "serviceName": "Telehealth Follow-Up",
+    "description": "Remote follow-up consultation for eligible existing patients needing quick advice or treatment review."
+  },
+  {
+    "serviceId": "BIRD-011",
+    "category": "Preventive",
+    "species": "Bird",
+    "price": "70",
+    "duration": "30 minutes",
+    "appointmentRequired": "Yes",
+    "availability": "2 appointments this week",
+    "specialOffer": "None",
+    "serviceName": "Avian Health Check",
+    "description": "Preventive bird health examination including handling advice, nutrition review, and health screening."
+  }
+]
